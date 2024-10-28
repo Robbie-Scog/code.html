@@ -7,7 +7,6 @@ onload = () => {
   };
 // Password Check Logic
 const passwordScreen = document.getElementById("password-screen");
-const flowerScreen = document.getElementById("flower-screen");
 const cardScreen = document.getElementById("card-screen");
 const passwordInput = document.getElementById("password-input");
 const submitPassword = document.getElementById("submit-password");
@@ -23,7 +22,7 @@ submitPassword.addEventListener("click", () => {
     if (enteredPassword === CORRECT_PASSWORD) {
         // If password is correct, show the flower screen
         passwordScreen.classList.add("hidden");
-        flowerScreen.classList.remove("hidden");
+        window.location.href = "flower.html";
     } else {
         // Display error message if the password is incorrect
         errorMessage.textContent = "Incorrect Password. Try again!";
