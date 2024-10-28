@@ -1,3 +1,10 @@
+//Flower need
+onload = () => {
+    const c = setTimeout(() => {
+      document.body.classList.remove("not-loaded");
+      clearTimeout(c);
+    }, 1000);
+  };
 // Password Check Logic
 const passwordScreen = document.getElementById("password-screen");
 const flowerScreen = document.getElementById("flower-screen");
