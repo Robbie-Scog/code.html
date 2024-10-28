@@ -31,6 +31,23 @@ body {
   filter: blur(0.1vmin);
 }
 
+/* Optional button styling */
+.next-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s;
+}
+
+.next-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
 .flowers {
   position: relative;
   transform: scale(0.9);
