@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Surprise</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Password Input Screen -->
+    <div id="password-screen">
+        <h1>Enter the Password</h1>
+        <input type="number" id="password-input" placeholder="Enter Password" />
+        <button id="submit-password">Submit</button>
+        <p id="error-message"></p>
+    </div>
+
+    <!-- Flower Animation Screen -->
+    <div id="flower-screen" class="hidden">
+        <div class="flower-container">
+            <div class="flower-stem"></div>
+            <div class="flower-petals"></div>
+        </div>
+        <button id="show-card">Click to see next</button>
+    </div>
+
+    <!-- Birthday Card Screen -->
+    <div id="card-screen" class="hidden">
+        <div class="card">
+            <div class="card-page front">Happy Birthday! 🎉</div>
+            <div class="card-page back">Wishing you all the happiness! 😊</div>
+        </div>
+    </div>
+</body>
+</html>
