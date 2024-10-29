@@ -35,33 +35,36 @@ body {
 
 /* Password Screen */
 #password-screen {
-    margin-top: 20%;
+    margin-top: 15%;
+    color: #003366;
 }
 
 input {
     padding: 10px;
     margin: 10px;
     font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #87ceeb;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: #0096c7;
     color: white;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #0077a7;
 }
-
-
 
 /* Birthday Card */
 #card-screen {
-    margin-top: 20%;
+    margin-top: 15%;
 }
 
 .card {
@@ -69,25 +72,31 @@ button:hover {
     height: 200px;
     perspective: 1000px;
     margin: 0 auto;
+    background: #e0f7fa;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .card-page {
     width: 100%;
     height: 100%;
-    background-color: pink;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
     backface-visibility: hidden;
     position: absolute;
-    border: 2px solid #fff;
+    border: 2px solid #87ceeb;
     font-size: 24px;
+    color: #0096c7;
     cursor: pointer;
     transition: transform 0.8s;
+    border-radius: 8px;
 }
 
 .card-page.back {
     transform: rotateY(180deg);
+    background-color: #87ceeb;
+    color: #ffffff;
 }
 
 .card:hover .front {
