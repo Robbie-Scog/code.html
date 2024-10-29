@@ -17,7 +17,7 @@ submitPassword.addEventListener("click", () => {
         window.location.href = "flower.html";
     } else {
         // Display error message if the password is incorrect
-        errorMessage.textContent = "Incorrect Password. Try again!";
+        errorMessage.textContent = "Có chừng đấy cũng không nhập được =((((";
     }
 });
 
