@@ -7,7 +7,7 @@
 }
 
 :root {
-  --dark-color: #000;
+  --dark-color: #237de3;
 }
 
 body {
@@ -47,6 +47,8 @@ body {
 .next-button:hover {
     background-color: #45a049; /* Darker green on hover */
 }
+
+/* flower styling */
 
 .flowers {
   position: relative;
